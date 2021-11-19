@@ -3,49 +3,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Clone Landing Page</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap" rel="stylesheet">
+    <title>flex footer</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <!--Header begins-->
-    <header>
-        <nav>
-            <ul class="header-nav">
-                <a href="#">About</a>
-                <a href="#">Store</a>
-            </ul>
-            <ul class="header-nav">
-                <a href="#">Gmail</a>
-                <a href="#">Images</a>
-                <img class="header-img" src="/img/baseline_apps_black_24dp.png" alt="google-apps">
-                <img class="header-img" src="/img/baseline_portrait_black_24dp.png" alt="google-profile-circle">
-            </ul>
-        </nav>
+    <header class="container">
+        <ul class="container-items">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Store</a></li>
+        
+        </ul>
+        <ul class="container-items">
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#">Image</a></li>
+            <li><img src="/img/baseline_apps_black_24dp.png"></a></li>
+            <li><img src="/img/baseline_portrait_black_24dp.png"></a></li>
+        </ul>
     </header>
-         <!--Header ends-->
-
-    </div>
-    <!--Content Section-->
     <section>
-        <h1>
-            <span style="color: blue;">G</span><span style="color: red;">o</span><span style="color: rgb(255, 208, 0);">o</span><span style="color: blue;">g</span><span style="color: green;">l</span><span style="color: red;">e</span>
-        </h1>
-        <div class="my-input-container">
-            <img src="/img/baseline_search_black_24dp.png" alt="magnifyer">
+        <h1><span style="color: blue;">G</span><span style="color: red;">o</span><span style="color: rgb(255, 217, 0);">o</span><span style="color: blue;">g</span><span style="color:  rgba(76, 187, 38, 0.913);">l</span><span style="color: red;">e</span></h1>
+        <div class="input-container">
+            <img src="/img/baseline_search_black_24dp.png">
             <input type="text">
-            <img src="/img/baseline_mic_black_24dp.png" alt="mic">
+            <img src="/img/baseline_mic_black_24dp.png">
         </div>
-        <div class="my-button-container">
+        <div class="button-container">
             <button>Google Search</button>
-            <button>Feeling Lucky</button>
-
+            <button> I'm Feeling Lucky</button>
         </div>
-    </section> <!--End of Content Section-->
-    <div class="footer">
-
-    </div>
+    </section>
+    <footer class="footer">
+        <ul class="footer-items">
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">How Search Works</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
